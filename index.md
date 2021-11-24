@@ -1,5 +1,3 @@
-Here you can say lots of fun things about your site.
+Site still under development while I learn to develop.
 
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Hopefully gonna blog about cybersec and related topics
