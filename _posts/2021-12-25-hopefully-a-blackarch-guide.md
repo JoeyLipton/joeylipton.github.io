@@ -11,5 +11,5 @@ So here's another guide that does essentially the same thing
 $ echo "printf 'I'm working on it rn\n' " > /home/joey/to-do.txt
 ```
 
-![Terminal Snippet](/docs/assets/raycast-untitles.png)
+![Terminal Snippet Test 2](/docs/assets/raycast-untitles.png)
 
