@@ -1,7 +1,7 @@
 ## BlackArch Docker Setup Guide
 
-### Thesis: There are too many guides about Kali Linux Docker Containers
-So here's another guide that does essentially the same thing
+### Thesis: There are too many guides about Kali Linux Containers
+So here's another guide that does essentially the same thing but take up 4x the space
 
 ---
 
@@ -45,11 +45,34 @@ For this we need to specify the type of Docker session we want, for setup want a
 [ c3ca2e979c4d / ]#
 ```
 <br>
-Now this is a pretty good start, but if you mess around a bit you'll quickly realize there a no tools? So we're going to install right now, and if there are any other apps you want like vim or tmux feel free to install those too.
+Now this is a pretty good start, but if you mess around a bit you'll quickly realize there a no tools? So we're going to install right now, and if there are any other apps you want like vim or tmux feel free to install those too. Before we run the BlackArch install, keep in mind the default installation take 60GB of space, so just make sure you have at least 120GB of space before starting. 
 
 <br>
 
+#### GIMME ALL THE TOOLS
+<br>
+
+```
+[ c3ca2e979c4d / ]# pacman -Syu --needed --overwrite='*' blackarch
+
+:: Synchronizing package databases...
+ core is up to date
+ extra is up to date
+ community is up to date
+ multilib is up to date
+ blackarch is up to date
+:: There are 2739 members in group blackarch:
+:: Repository blackarch
+
+-- SNIP --
+
+Total Download Size:   16261.69 MiB
+Total Installed Size:  56558.75 MiB
+Net Upgrade Size:      56558.23 MiB
+
+:: Proceed with installation? [Y/n] Y
+```
+<br>
 
 
-
-
+You might want to get some coffee or go to sleep, this is gonna take a while to download. 
