@@ -5,6 +5,11 @@ So here's another guide that does essentially the same thing but take up 4x the 
 
 ---
 
+#### Some Prerequisites:
+1. Minimum 80GB of free space
+2. 4GB of RAM, preferably higher than 8GB
+3. Docker installed on your system
+
 #### Pull the Docker Container
 <p></p>
 For reference, I am going to be using this specific container by the Offical BlackArch Team.
