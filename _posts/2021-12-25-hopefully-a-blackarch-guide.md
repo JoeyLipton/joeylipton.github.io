@@ -7,6 +7,14 @@ So here's another guide that does essentially the same thing
 
 #### Pull the Docker Container
 
+<br>
+
+For reference, I am going to be using this specific container by the Offical BlackArch Team.
+
+https://hub.docker.com/r/blackarchlinux/blackarch
+
+<br>
+
 ```
 ❯ docker pull blackarchlinux/blackarch
 Using default tag: latest
@@ -23,9 +31,25 @@ blackarchlinux/blackarch       latest    4a676bf8bd5a   2 days ago     385MB
 ```
 
 <br>
+
 #### Starting the BlackArch Container
 
+<br>
+
 For this we need to specify the type of Docker session we want, for setup want an interactive session. Later you can set it up so that just the tools are connected to your host machine (if you run Linux/MacOS). 
+
+<br>
+
+```
+❯ docker run --tty --interactive --rm blackarchlinux/blackarch /bin/bash
+[ c3ca2e979c4d / ]#
+```
+<br>
+Now this is a pretty good start, but if you mess around a bit you'll quickly realize there a no tools? So we're going to install right now, and if there are any other apps you want like vim or tmux feel free to install those too.
+
+<br>
+
+
 
 
 
