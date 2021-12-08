@@ -91,9 +91,26 @@ c3ca2e979c4d   blackarchlinux/blackarch
 ```
 <br>
 
+#### Running BlackArch 
+<br>
+
 And there you go, anytime you need to spin up a set of tools for a ctf:
 
 ```
 docker run -it  --network=host <username>/blackarch /bin/bash
 ```
 
+<br>
+
+#### Saving Alias in CLI
+
+<br>
+
+```
+echo "docker run -it  --network=host <username>/blackarch /bin/bash" >> ~/.bashrc
+
+# Or if you use zsh 
+
+echo "docker run -it  --network=host <username>/blackarch /bin/bash" >> ~/.zsh
+
+```
