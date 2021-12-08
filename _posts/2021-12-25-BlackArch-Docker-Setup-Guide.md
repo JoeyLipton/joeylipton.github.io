@@ -7,7 +7,6 @@ So here's another guide that does essentially the same thing but take up 4x the 
 
 #### Pull the Docker Container
 
-<br>
 
 For reference, I am going to be using this specific container by the Offical BlackArch Team.
 
