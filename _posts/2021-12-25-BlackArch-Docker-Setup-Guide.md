@@ -68,14 +68,13 @@ Net Upgrade Size:      56558.23 MiB
 
 :: Proceed with installation? [Y/n] Y
 ```
-<br>
 
 
 You might want to get some coffee or go to sleep, this is gonna take a while to download. 
 
 
 
-Once this is over, its time to commit and save your BlackArch container. Pop open a new terminal session.
+Once this is over, its time to commit and save your BlackArch container. Pop open a new terminal session and use $ <i>docker ps </i> to take view your running docker containers. Then make note of the container ID to create a new image based off of your installation.
 <br>
 
 ```
