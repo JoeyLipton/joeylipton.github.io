@@ -6,7 +6,7 @@ So here's another guide that does essentially the same thing but take up 4x the 
 ---
 
 #### Pull the Docker Container
-
+<p></p>
 For reference, I am going to be using this specific container by the Offical BlackArch Team.
 
 [https://hub.docker.com/r/blackarchlinux/blackarch](https://hub.docker.com/r/blackarchlinux/blackarch)
@@ -29,8 +29,7 @@ blackarchlinux/blackarch       latest    4a676bf8bd5a   2 days ago     385MB
 <br>
 
 #### Starting the BlackArch Container
-
-
+<p></p>
 For this we need to specify the type of Docker session we want, for setup want an interactive session. Later you can set it up so that just the tools are connected to your host machine (if you run Linux/MacOS). 
 <br>
 
@@ -44,7 +43,7 @@ Now this is a pretty good start, but if you mess around a bit you'll quickly rea
 <br>
 
 #### Downlading a Couple Tools
-
+<p></p>
 
 ```
 [ c3ca2e979c4d / ]# pacman -Syu --needed --overwrite='*' blackarch
@@ -85,7 +84,7 @@ c3ca2e979c4d   blackarchlinux/blackarch
 <br>
 
 #### Running BlackArch 
-
+<p></p>
 And there you go, anytime you need to spin up a set of tools for a ctf:
 
 ```
@@ -95,6 +94,8 @@ docker run -it  --network=host <username>/blackarch /bin/bash
 <br>
 
 #### Saving Alias in CLI
+<p></p>
+
 This step is just to save the 
 ```
 echo "alias blackarck='docker run -it  --network=host <username>/blackarch /bin/bash'" >> ~/.bashrc
