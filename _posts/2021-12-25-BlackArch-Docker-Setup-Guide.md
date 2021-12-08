@@ -12,7 +12,6 @@ So here's another guide that does essentially the same thing but take up 4x the 
 For reference, I am going to be using this specific container by the Offical BlackArch Team.
 
 [https://hub.docker.com/r/blackarchlinux/blackarch](https://hub.docker.com/r/blackarchlinux/blackarch)
-<br>
 
 ```
 ❯ docker pull blackarchlinux/blackarch
@@ -89,7 +88,7 @@ c3ca2e979c4d   blackarchlinux/blackarch
 <br>
 
 #### Running BlackArch 
-<br>
+
 
 And there you go, anytime you need to spin up a set of tools for a ctf:
 
