@@ -49,7 +49,7 @@ Now this is a pretty good start, but if you mess around a bit you'll quickly rea
 
 <br>
 
-#### GIMME ALL THE TOOLS
+#### Downlading a Couple Tools
 <br>
 
 ```
@@ -76,3 +76,24 @@ Net Upgrade Size:      56558.23 MiB
 
 
 You might want to get some coffee or go to sleep, this is gonna take a while to download. 
+
+<br>
+
+Once this is over, its time to commit and save your BlackArch container. Pop open a new terminal session.
+<br>
+
+```
+❯ docker ps
+CONTAINER ID   IMAGE
+c3ca2e979c4d   blackarchlinux/blackarch
+❯ 
+~ ❯ docker commit c3ca2e979c4d joeylipton/blackarch:v1
+```
+<br>
+
+And there you go, anytime you need to spin up a set of tools for a ctf:
+
+```
+docker run -it  --network=host <username>/blackarch /bin/bash
+```
+
