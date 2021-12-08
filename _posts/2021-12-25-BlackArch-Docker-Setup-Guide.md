@@ -73,7 +73,7 @@ Net Upgrade Size:      56558.23 MiB
 
 You might want to get some coffee or go to sleep, this is gonna take a while to download. 
 
-<br>
+
 
 Once this is over, its time to commit and save your BlackArch container. Pop open a new terminal session.
 <br>
