@@ -34,10 +34,8 @@ blackarchlinux/blackarch       latest    4a676bf8bd5a   2 days ago     385MB
 
 #### Starting the BlackArch Container
 
-<br>
 
 For this we need to specify the type of Docker session we want, for setup want an interactive session. Later you can set it up so that just the tools are connected to your host machine (if you run Linux/MacOS). 
-
 <br>
 
 ```
@@ -50,7 +48,7 @@ Now this is a pretty good start, but if you mess around a bit you'll quickly rea
 <br>
 
 #### Downlading a Couple Tools
-<br>
+
 
 ```
 [ c3ca2e979c4d / ]# pacman -Syu --needed --overwrite='*' blackarch
