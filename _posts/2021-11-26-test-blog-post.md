@@ -1,4 +1,4 @@
-## Game Zone - Test Blog Post
+## Ignore for Now - Test Blog Post
 
 Task 1: Deploy the vulnerable machine
 

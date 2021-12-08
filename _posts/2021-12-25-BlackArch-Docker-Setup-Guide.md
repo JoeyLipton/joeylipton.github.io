@@ -98,11 +98,12 @@ docker run -it  --network=host <username>/blackarch /bin/bash
 <br>
 
 #### Saving Alias in CLI
+This step is just to save the 
 ```
-echo "docker run -it  --network=host <username>/blackarch /bin/bash" >> ~/.bashrc
+echo "alias blackarck='docker run -it  --network=host <username>/blackarch /bin/bash'" >> ~/.bashrc
 
 # Or if you use zsh 
 
-echo "docker run -it  --network=host <username>/blackarch /bin/bash" >> ~/.zsh
+echo "alias blackarch='docker run -it  --network=host <username>/blackarch /bin/bash'" >> ~/.zsh
 
 ```
