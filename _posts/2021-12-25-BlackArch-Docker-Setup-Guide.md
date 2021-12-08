@@ -98,7 +98,6 @@ docker run -it  --network=host <username>/blackarch /bin/bash
 <br>
 
 #### Saving Alias in CLI
-
 ```
 echo "docker run -it  --network=host <username>/blackarch /bin/bash" >> ~/.bashrc
 
