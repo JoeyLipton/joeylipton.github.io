@@ -22,7 +22,7 @@ blackarchlinux/blackarch       latest    4a676bf8bd5a   2 days ago     385MB
 ~ ❯
 ```
 
-
+<br>
 #### Starting the BlackArch Container
 
 For this we need to specify the type of Docker session we want, for setup want an interactive session. Later you can set it up so that just the tools are connected to your host machine (if you run Linux/MacOS). 
