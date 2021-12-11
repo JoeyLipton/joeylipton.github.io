@@ -1,6 +1,6 @@
 # joeylipton.github.io
 
-This is just a website, feel free to clone my website if you want to.
+This is just a website. Feel free to clone my website if you want to, there is nothing stopping you.
 
 Also hit me up on discord at JoeyLipton#5169 if you want to play Quake. 
 
