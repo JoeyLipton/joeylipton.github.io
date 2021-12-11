@@ -112,3 +112,4 @@ echo "alias blackarck='docker run -it  --network=host <username>/blackarch /bin/
 echo "alias blackarch='docker run -it  --network=host <username>/blackarch /bin/bash'" >> ~/.zsh
 
 ```
+
