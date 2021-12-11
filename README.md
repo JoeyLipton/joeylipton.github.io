@@ -4,6 +4,7 @@ This is just a website, feel free to clone my website if you want to.
 
 Also hit me up on discord at JoeyLipton#5169 if you want to play Quake. 
 
+```
  _______________________________________
 |\ ___________________________________ /|
 | | _                               _ | |
@@ -27,3 +28,4 @@ Also hit me up on discord at JoeyLipton#5169 if you want to play Quake.
 | | ~                               ~ | |
 |/ ----------------------------------- \|
  ---------------------------------------
+```
