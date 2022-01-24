@@ -1,4 +1,4 @@
-## Game Zone
+## TryHackMe Game Zone
 
 Task 1: Deploy the vulnerable machine
 
