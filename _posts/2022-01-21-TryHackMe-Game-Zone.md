@@ -42,6 +42,7 @@ Task 3: Using SQLMap
 SQLMap is an automatic SQL injection and database takeover tool. 
 
 So the query packet can be intercepted and saved as request.txt or any file name.
+
 ```
 $ sqlmap -r  /home/joey/ctf/tryhackme/rooms/game\ zone/sql-injection/request.txt --dbms=mysql --dump               
 

