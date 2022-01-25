@@ -1,5 +1,5 @@
 ## TryHackMe Daily Bugle
-
+---
 
 ### Task 1: Deploy
 
