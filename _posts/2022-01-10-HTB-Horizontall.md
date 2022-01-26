@@ -55,11 +55,11 @@ The "horizontall.htb" link needed to be added to the /etc/hosts file.
 
 #### Checking the website
 
-![](../docs/images/horizontall1.png)
+![](/docs/images/horizontall1.png)
 
 Upon inspecting the website, there are 2 links in the inspect page that can be accessed. 
 
-![](../docs/images/horizontall2.png)
+![](/docs/images/horizontall2.png)
 
 The second link shows another endpoint of api-prod.horizontall.htb, this was then added to the /etc/hosts file so it was accessible. 
 
