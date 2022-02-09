@@ -40,6 +40,9 @@ Using the version number, 9.0.30, an exploit can be found named 'Ghostcat'. This
 This can be found in Metasploit as shown below: 
 
 ![](/docs/images/tomghost/tomghost5.png)
+
+<p></p>
+
 ![](/docs/images/tomghost/tomghost6.png)
 
 The text at the bottom sounds interesting:
