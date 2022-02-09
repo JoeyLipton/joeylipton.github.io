@@ -20,15 +20,19 @@ $ nmap -sC -sV 10.10.40.145 -oA recon/recon-rootme
 gobuster dir -u http://10.10.40.145 -w /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -o gobuster/gob-rootme
 ```
 
+This is just a standard gobuster scan on the box to look for endpoints, the command itself usually doesn't finish but its a good way to find initial access.
+
+
 ![](/docs/images/rootme/rootme3.png)
 
 
 #### /panel/ endpoint
 
+The /panel/ endpoint found in gobuster looks interesting as this isn't a normal endpoint found in Apache so its worth checking out. 
 
 ![](/docs/images/rootme/rootme4.png)
 
-This endpoint allows for file uploads, the first easist thing to test is a PHP reverse shell. 
+This endpoint allows for file uploads, the first easiest thing to test is a PHP reverse shell. 
 
 
 ![](/docs/images/rootme/rootme5.png)
@@ -66,7 +70,7 @@ The user flag has been found. Now onto privilege escalation.
 
 #### Privilege Escalation
 
-The TryHackMe site says that the priv esc method is a SUID binary. So I can start there. The easist, OSCP-approved way to send over linpeas.sh onto the system and run it. This will give a big overview of the system.
+The TryHackMe site says that the priv esc method is a SUID binary. So I can start there. The easiest, OSCP-approved way to send over linpeas.sh onto the system and run it. This will give a big overview of the system.
 
 Use linpeas to find SUID binary
 
