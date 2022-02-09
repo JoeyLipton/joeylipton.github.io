@@ -55,15 +55,15 @@ The "horizontall.htb" link needed to be added to the /etc/hosts file.
 
 #### Checking the website
 
-![](/docs/images/horizontall1.png)
+![](/docs/images/horizontall/horizontall1.png)
 
 Upon inspecting the website, there are 2 links in the inspect page that can be accessed. 
 
-![](/docs/images/horizontall2.png)
+![](/docs/images/horizontall/horizontall2.png)
 
 The second link shows another endpoint of api-prod.horizontall.htb, this was then added to the /etc/hosts file so it was accessible. 
 
-![](/docs/images/horizontall3.png)
+![](/docs/images/horizontall/horizontall3.png)
 
 ---
 #### api-prod Gobuster search
@@ -101,7 +101,7 @@ Visiting the "api-prod.horizontall.htb/admin" endpoint shows a strapi admin pane
 
 Using searchsploit shows some potential exploits for this. 
 
-![](/docs/images/horizontall4.png)
+![](/docs/images/horizontall/horizontall4.png)
 
 The first exploit that was used was the 50237.py exploit (Set password). This was used to set the password to 'password'.
 
@@ -262,7 +262,7 @@ $
 
 Now visiting the domain 'http://127.0.0.1:8000' revealing a Laravel website. 
 
-![](/docs/images/horizontall5.png)
+![](/docs/images/horizontall/horizontall5.png)
 
 Using the debug mode exploit, a shell can be gained on the root user of the system. 
 
