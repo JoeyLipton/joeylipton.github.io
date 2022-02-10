@@ -1,4 +1,7 @@
 ## TryHackMe Game Zone
+---
+
+[Link to TryHackMe Room](https://tryhackme.com/room/gamezone)
 
 Task 1: Deploy the vulnerable machine
 
@@ -124,7 +127,7 @@ user.txt
 agent47@gamezone:~$ la
 .bash_history  .bash_logout  .bashrc  .cache  .profile  user.txt
 agent47@gamezone:~$ cat user.txt 
-649ac17b1480ac13ef1e4fa579dac95c
+649ac1{REDACTED}
 agent47@gamezone:~$ 
 ```
 
@@ -200,7 +203,7 @@ whoami
 root
 cd /root/
 cat root.txt
-a4b945830144bdd71908d12d902adeee
+a4b945{REDACTED}
 ```
 
 ## Complete
