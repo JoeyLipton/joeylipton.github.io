@@ -1,7 +1,9 @@
 ## TryHackMe Alfred
 ---
 
-![Link to TryHackMe Room](https://tryhackme.com/room/alfred)
+<p></p>
+
+[Link to TryHackMe Room](https://tryhackme.com/room/alfred)
 
 - Machine does not respond to ICMP
 - Using Nishang to gain initial access
