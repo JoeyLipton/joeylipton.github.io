@@ -181,7 +181,7 @@ composer-setup.php  myproject  user.txt
 
 strapi@horizontall:/home/developer$ cat user.txt
 cat user.txt
-0325789ed8df79cde2679ecc8f10d209
+032578{REDACTED}
 ```
 
 After looking around the system and falling into rabbit-holes for like 30 minutes I found an open port on the local system.
@@ -289,7 +289,7 @@ boot.sh
 pid
 restart.sh
 root.txtcat root.txt
-b65c80d2e2ecae0c11cff2ba03ef44f3
+b65c8{REDACTED}
 ```
 
 
