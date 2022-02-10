@@ -224,19 +224,19 @@ meterpreter > ps
 Process List
 ============
 
- PID   PPID  Name                  Arch  Session  User                          Path
- ---   ----  ----                  ----  -------  ----                          ----
- 0     0     [System Process]
- 4     0     System                x64   0
- 396   4     smss.exe              x64   0        NT AUTHORITY\SYSTEM           C:\Windows\System32\smss.exe 524   516   csrss.exe             x64   0        NT AUTHORITY\SYSTEM           C:\Windows\System32\csrss.exe
- 540   524   conhost.exe           x64   0        alfred\bruce                  C:\Windows\System32\conhost.exe
- 572   564   csrss.exe             x64   1        NT AUTHORITY\SYSTEM           C:\Windows\System32\csrss.exe
- 580   516   wininit.exe           x64   0        NT AUTHORITY\SYSTEM           C:\Windows\System32\wininit.exe
- 608   564   winlogon.exe          x64   1        NT AUTHORITY\SYSTEM           C:\Windows\System32\winlogon.exe
- 668   580   services.exe          x64   0        NT AUTHORITY\SYSTEM           C:\Windows\System32\services.exe
- 676   580   lsass.exe             x64   0        NT AUTHORITY\SYSTEM           C:\Windows\System32\lsass.exe
+PID   PPID  Name                  Arch  Session  User                          Path
+---   ----  ----                  ----  -------  ----                          ----
+0     0     [System Process]
+4     0     System                x64   0
+396   4     smss.exe              x64   0        NT AUTHORITY\SYSTEM           C:\Windows\System32\smss.exe 524   516   csrss.exe             x64   0        NT AUTHORITY\SYSTEM           C:\Windows\System32\csrss.exe
+540   524   conhost.exe           x64   0        alfred\bruce                  C:\Windows\System32\conhost.exe
+572   564   csrss.exe             x64   1        NT AUTHORITY\SYSTEM           C:\Windows\System32\csrss.exe
+580   516   wininit.exe           x64   0        NT AUTHORITY\SYSTEM           C:\Windows\System32\wininit.exe
+608   564   winlogon.exe          x64   1        NT AUTHORITY\SYSTEM           C:\Windows\System32\winlogon.exe
+668   580   services.exe          x64   0        NT AUTHORITY\SYSTEM           C:\Windows\System32\services.exe
+676   580   lsass.exe             x64   0        NT AUTHORITY\SYSTEM           C:\Windows\System32\lsass.exe
 
- -- SNIP --
+-- SNIP --
 ```
 
 ```
