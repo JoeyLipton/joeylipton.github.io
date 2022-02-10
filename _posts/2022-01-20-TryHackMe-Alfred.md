@@ -1,6 +1,8 @@
 ## TryHackMe Alfred
 ---
 
+Link to TryHackMe Room: https://tryhackme.com/room/alfred 
+
 - Machine does not respond to ICMP
 - Using Nishang to gain initial access
 
@@ -87,7 +89,7 @@ Mode                LastWriteTime     Length Name
 
 
 PS C:\Users\bruce\Desktop> type user.txt
-79007a09481963edf2e1321abd9ae2a0
+79007{REDACTED}
 PS C:\Users\bruce\Desktop> 
 ```
 
@@ -267,7 +269,7 @@ meterpreter > pwd
 C:\Windows\system32
 meterpreter > cd config
 meterpreter > cat root.txt
-dff0f748678f280250f25a45b8046b4a
+dff0f{REDACTED}
 meterpreter > 
 ```
 
