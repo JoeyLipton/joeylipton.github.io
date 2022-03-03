@@ -1,4 +1,4 @@
-## TryHackMe Mustacchio
+## TryHackMe Mustacchio Writeup
 ---
 
 [Link to TryHackMe Room](https://tryhackme.com/room/mustacchio)

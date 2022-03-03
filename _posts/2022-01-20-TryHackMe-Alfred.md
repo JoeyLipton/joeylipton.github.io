@@ -1,4 +1,4 @@
-## TryHackMe Alfred
+## TryHackMe Alfred Writeup
 ---
 
 <p></p>

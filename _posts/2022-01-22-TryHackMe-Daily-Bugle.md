@@ -1,4 +1,4 @@
-## TryHackMe Daily Bugle
+## TryHackMe Daily Bugle Writeup
 ---
 
 ### Task 1: Deploy

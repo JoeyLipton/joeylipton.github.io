@@ -1,4 +1,4 @@
-## Team
+## TryHack Me Team Writeup
 ---
 
 #### Starting the machine 
@@ -39,7 +39,9 @@ After adding the team.thm link to the hosts file, a new page pops us at http://t
 
 After some digging around and revealing nothing, it was time for another gobuster scan using the new webpage.
 
-```gobuster dir -u http://team.thm -w /usr/share/wordlists/dirb/common.txt -o services/apache/gob-team-thm -x txt,php,html```
+```
+gobuster dir -u http://team.thm -w /usr/share/wordlists/dirb/common.txt -o services/apache/gob-team-thm -x txt,php,html
+```
 
 ![](/docs/images/team/team6.png)
 

@@ -1,4 +1,4 @@
-## TryHackMe RootMe
+## TryHackMe RootMe Writeup
 ---
 
 #### Starting the Box

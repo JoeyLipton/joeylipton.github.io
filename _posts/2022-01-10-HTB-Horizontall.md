@@ -1,4 +1,4 @@
-## HackTheBox Horizontall 
+## HackTheBox Horizontall Writeup
 ---
 
 ### Reconnaissance 

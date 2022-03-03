@@ -1,4 +1,4 @@
-## TryHackMe Game Zone
+## TryHackMe Game Zone Writeup
 ---
 
 [Link to TryHackMe Room](https://tryhackme.com/room/gamezone)

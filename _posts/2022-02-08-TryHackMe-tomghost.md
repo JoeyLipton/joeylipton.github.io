@@ -1,4 +1,4 @@
-## TryHackMe tomghost 
+## TryHackMe tomghost Writeup
 ---
 
 #### Starting the Machine
