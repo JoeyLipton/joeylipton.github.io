@@ -40,8 +40,11 @@ After adding the team.thm link to the hosts file, a new page pops us at http://t
 After some digging around and revealing nothing, it was time for another gobuster scan using the new webpage.
 
 ```
+
 gobuster dir -u http://team.thm -w /usr/share/wordlists/dirb/common.txt -o services/apache/gob-team-thm -x txt,php,html
+
 ```
+
 
 ![](/docs/images/team/team6.png)
 
@@ -57,9 +60,6 @@ Let's go back to the main directory to look around for more stuff.
 #### /scripts endpoint
 
 I forgot to originally check the /scripts folder for more content, so I'll do that now.
-
-```gobuster dir -u http://team.thm/scripts -w /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -o services/apache/gob-team-thm-scripts -x txt,php,html,js 
-```
 
 
 ![](/docs/images/team/team8.png)
