@@ -1,4 +1,4 @@
-## Pickle Rick
+## Pickle Rick Writeup
 ---
 
 Link to TryHackMe Room: https://tryhackme.com/room/picklerick
