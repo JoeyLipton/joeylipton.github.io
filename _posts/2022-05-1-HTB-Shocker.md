@@ -82,7 +82,7 @@ Also we need the full path of `ls` since there's no terminal profile in the shel
 
 Honestly, this is a ctf. I'm going to be a little lazy and just get the user flag right off the cmd injection. 
 
-![](S/docs/images/shocker4.png)
+![](/docs/images/shocker4.png)
 
 
 ### User Access
