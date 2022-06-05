@@ -2,7 +2,7 @@
 ---
 
 
-![](/docs/images/emdee1.png)
+![](/docs/images/emdee-five-for-life/emdee1.png)
 
 
 This was a pretty easy scripting challenge that involved pulling the data from the website and sending an input form. 
@@ -17,14 +17,14 @@ But Python is easy so yeah.
 The [Emdee five for life](https://app.hackthebox.com/challenges/67) challenge is listed as a Misc challenge on HackTheBox, but personally it's more of a programming category challenge. HTB doesn't have that category so into Misc it goes.
 
 
-![](/docs/images/emdee2.png)
+![](/docs/images/emdee-five-for-life/emdee2.png)
 
 Upon opening the page, we're greeted by a powder blue background with an randomly generated string of text and a space for an MD5 hash.
 
 So let's input something:
 
 
-![](/docs/images/emdee3.png)
+![](/docs/images/emdee-five-for-life/emdee3.png)
 
 Looks like there's a super short window for inputting the value. I'm gonna skip the fuzzing and stuff and just start on the script.
 
@@ -57,7 +57,7 @@ Now I'm lazy so there is most definitely an easier way to save a global variable
 Put the output works just fine, since there is only one `<h3>` tag on the page, the string, it output perfectly. 
 
 
-![](/docs/images/emdee4.png)
+![](/docs/images/emdee-five-for-life/emdee4.png)
 
 
 Alright now we can work on the md5 part.
@@ -77,7 +77,7 @@ print(md5hash)
 So now this hashes the value in Python using the [hashlib](https://docs.python.org/3/library/hashlib.html) library, saves and prints the values.
 
 
-![](/docs/images/emdee5.png)
+![](/docs/images/emdee-five-for-life/emdee5.png)
 
 So now all we have to do is input the values in the form and we're golden.
 
@@ -92,6 +92,6 @@ input_box[1].click()
 
 So the logic behind this is that there are 2 input fields on the page. The first one is the MD5 input field, and the second is the 'Submit' button. So Selenium already has some easy functions to process these and we can just fill them up.
 
-![](/docs/images/emdee6.png)
+![](/docs/images/emdee-five-for-life/emdee6.png)
 
 And there's our flag.
