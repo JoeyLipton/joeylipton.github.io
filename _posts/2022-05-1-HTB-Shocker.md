@@ -1,4 +1,4 @@
-## HTB Shocker
+## HTB Shocker Writeup
 ---
 
 
