@@ -1,4 +1,4 @@
-## Setting up Windows in Parallels
+## Setting up CommandoVM in Parallels
 ---
 
 I got this idea randomly since most of my Commando VMs are pretty fast but my Windows 10 running on Parallels is very slow. Now I already know it's because I'm running Hyper-V and WSL, which is already running on a virtual platform. Now with the added overhead of using Coherence mode, my poor i9 gets very tired and toasty. And I don't want to install all the tools manually.  
