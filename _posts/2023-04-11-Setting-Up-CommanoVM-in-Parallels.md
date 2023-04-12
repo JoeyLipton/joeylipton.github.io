@@ -3,7 +3,7 @@
 
 I got this idea randomly since most of my Commando VMs are pretty fast but my Windows 10 running on Parallels is very slow. Now I already know it's because I'm running Hyper-V and WSL, which is already running on a virtual platform. Now with the added overhead of using Coherence mode, my poor i9 gets very tired and toasty. And I don't want to install all the tools manually.  
 
-I'll be going over recommended specs for the VM but yours may vary so I'll list my specs for reference, Parallels does most of the work for you but I'll provide a little guidance for something you might want to change. 
+I'll be going over recommended specs for the VM but yours may vary, Parallels does most of the work for you but I'll provide a little guidance for something you might want to change. 
 
 ### Step 1: Decide on VMware Fusion or Parallels
 
