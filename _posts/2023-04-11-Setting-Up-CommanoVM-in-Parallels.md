@@ -7,7 +7,7 @@ I'll be going over recommended specs for the VM but yours may vary, Parallels do
 
 ### Step 1: Decide on VMware Fusion or Parallels
 
-I'll be real, Parallels is cool and offers better performance but VMware has a more advanced ecosystem and compatability. When people ask me which software they should use, I usually tell them whichever your university offers for free. 
+I'll be real, Parallels is cool and offers better performance but VMware has a more advanced ecosystem and compatibility. When people ask me which software they should use, I usually tell them whichever your university offers for free. 
 
 If you're into 'alternative' software obtaining methods then figure out your virtual platform situation, or your college/uni offers them both then consider this (and this is just my experience using both of these platforms for around 5 years.) Parallels is the better software for running Windows **applications** on MacOS. Need Visual Studio or some CAD software? Run Parallels, you'll get better performance and it integrates very well into the filesystem so you don't need to worry about dragging and dropping large files. 
 
